@@ -1,9 +1,8 @@
 const inputs=document.getElementById("inp");
 const text=document.querySelector(".text");
-// const prev=document
 
 function Add(){
-    // if users dosent enters any task and presses add button
+    // if users doesn't enters any task and presses the add button
     if(inputs.value==""){
         alert("Please Enter Task");
     } else{
